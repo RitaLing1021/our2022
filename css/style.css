@@ -45,6 +45,28 @@ a.our-btn{
   color:#fff;
   padding:5px 20px;
 }
+a.back{
+  font-size: 12px;
+  letter-spacing: 6px;
+  text-align: center;
+  padding: 5px 0 5px 5px;
+  width: 120px;
+  display: inline-block;
+}
+/*麵包屑*/
+.breadcrumb{
+  background: transparent;
+}
+
+.breadcrumb-item a{
+ color: #880000;
+ font-size: 12px;
+}
+.breadcrumb-item.active{
+  color: #808080;
+  font-size: 12px;
+ 
+}
 /*輪播*/
 .carousel-wrap {
   margin: 34px auto;
