@@ -140,6 +140,10 @@ nav.navbar.shrink .navbar-toggle {
 .navbar-collapse{
   position: relative;
 }
+.navbar-collapse.show{
+  background: #B79C80;
+  padding: 10px;
+}
 .dropdown-menu{
   top:30px;
   background: rgba(35,24,21,0.3);
