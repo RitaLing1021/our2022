@@ -82,3 +82,36 @@ jQuery("#news").owlCarousel({
 
   }
 });
+
+jQuery("#prod").owlCarousel({
+  autoplay: true,
+  rewind: true,
+  margin: 10,
+  responsiveClass: true,
+  autoHeight: true,
+  autoplayTimeout: 7000,
+  smartSpeed: 800,
+  nav: true,
+  responsive: {
+    0: {
+      items: 2
+    },
+    425: {
+      items: 2
+    },
+
+    600: {
+      items: 2
+    },
+    768: {
+      items: 3
+    },
+    1024: {
+      items: 3
+    },
+
+    1366: {
+      items: 3
+    }
+  }
+});

@@ -3,6 +3,15 @@
     background-size: cover;
     min-height: 415px;
 }
+.product{
+    margin-top: 80px;
+}
+.product .container{
+    width: 980px;
+}
+.product .breadcrumb{
+    padding-left: 0;
+}
 .product .desserts{
     display: flex;
     flex-direction: row;
@@ -10,8 +19,7 @@
     align-items: flex-start;
     flex-wrap: nowrap;
     align-content: stretch;
-    width: 980px;
-    margin-top: 5%;
+    margin-top: 2%;
 
 }
 .product_sell{
@@ -68,6 +76,118 @@
     background-color:transparent;
     border:none;
 }
+/*產品內頁*/
+.product .prod_photo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    width: 730px;
+    border-bottom: 1px solid #B69B80;
+    padding-bottom: 40px;
+}
+.product .prod_photo h3{
+    font-size: 24px;
+    color: #870000;
+    font-weight: 600;
+
+}
+.product .prod_photo h4{
+    font-size: 14px;
+    color: #ACADAE;
+}
+.product .prod_photo p{
+    color: #870000;
+    font-size: 24px;
+    font-family: 'Tenor Sans', sans-serif;
+    margin-top:20px ;
+}
+.product .prod_photo p span{
+    text-decoration:line-through;
+    color: #ACADAE;
+}
+.product .prod_photo .prod_title{
+    padding-left: 40px;
+}
+.product .marketing{
+    width: 730px;
+    padding: 5%;
+}
+.product .home_desserts{
+    background: #F6EDE7;
+    margin-bottom: 0;
+}
+.product .prod_photo .options button,.product .prod_photo .shop button{
+    font-size: 14px;
+    color: #ACADAE;
+    background: #fff;
+    border:#ACADAE 1px solid;
+}
+.product .prod_photo .options button{
+    padding: 0 20px;
+}
+.product .prod_photo .options button:focus{
+    color:#fff;
+    background: #870000;
+    border-color: #870000;
+    outline: none;
+}
+
+.shop .car{
+    width: 50%;
+}
+.product .prod_photo .shop button{
+    background: #ACADAE;
+    color:#fff;
+}
+.shop .input-group{
+    width:50%;
+    float: left;
+    border:solid 1px #ACADAE;
+    height: 30px;
+}
+.product .prod_photo .shop .input-group button{
+    background: #fff;
+    color: #870000;
+    border:none;
+}
+.product .prod_photo .shop .input-group input{
+    border: none;
+    text-align: center;
+}
+.product .prod_photo .shop .car{
+    height: 30px;
+}
+.textstyle{
+    padding-top: 40px;
+    font-size: 10px;
+    color:#808080;
+}
+@media(max-width:768px){
+    .product .desserts{
+        display: block;
+    }
+    .product .container{
+        width: 100%;
+        padding:0;
+    }
+    .product .prod_photo{
+        width:100%;
+        padding: 2%;
+    }
+    .textstyle{
+        padding: 2%;
+    }
+    .category{
+        display: none;
+    }
+    .product_sell{
+        display: block;
+        padding-left: 0;
+    }
+}
 @media(max-width:767px){
     .product_sell{
         padding-left: 0;
@@ -82,6 +202,12 @@
     }
     .product_sell .prodsell img{
         width: 100%;
-
+    }
+    .product .prod_photo{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .product .prod_photo .prod_title{
+        padding-left: 0;
     }
 }
