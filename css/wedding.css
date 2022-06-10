@@ -1,0 +1,46 @@
+.wedding_banner{
+    background: url(../images/wedding_banner.jpg) no-repeat top center;
+    background-size: cover;
+    min-height: 350px;
+}
+.wedding01{
+    position: relative;
+    padding:70px 0 90px 0;
+}
+.weddingline_left,.weddingline_right{
+    position: absolute;
+}
+.weddingline_left{
+    bottom: 0;
+    left: 1%;
+}
+.weddingline_right{
+    top: 3%;
+    right: 1%;
+}
+.wedding01 h2,.wedding_process h2{
+    color:#880000;
+    font-size: 26px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 30px;
+  }
+.wedding01 h2 span,.wedding_process h2 span{
+    font-size: 18px;
+    color:#B79C80;
+    display: block;
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 400;
+  }
+.wedding01 p{
+    font-size: 10px;
+    color: #808080;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 20px;
+}
+/*訂購流程*/
+.wedding_process{
+    background: #F6EDE7;
+}
