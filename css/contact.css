@@ -1,0 +1,140 @@
+.contact_banner{
+    background: url(../images/contact_banner.jpg) no-repeat top center;
+    background-size: cover;
+    min-height: 350px;
+}
+
+.contact01{
+    position: relative;
+    padding:70px 0 90px 0;
+    background-color: #F6EDE7;
+}
+.contactline_left,.contactline_right{
+    position: absolute;
+}
+.contactline_left{
+    bottom: 0;
+    left: 0;
+}
+.contactline_right{
+    top: 3%;
+    right: 0;
+}
+.contact01 h2{
+    font-family: 'Tenor Sans', sans-serif;
+    color:#880000;
+    font-size: 26px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 30px;
+  }
+.contact01 h2 span{
+    font-family: 'Noto Serif TC', serif;
+    font-size: 18px;
+    color:#B79C80;
+    display: block;
+    font-weight: 400;
+  }
+.contact01 p{
+    font-size: 10px;
+    color: #808080;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 20px;
+}
+.company_info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    font-size: 10px;
+    color:#808080;
+    position: relative;
+    z-index: 99;
+    margin-top: 70px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: normal;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    align-content: center;
+    margin-left: 60px;
+}
+.company_info input,.company_info textarea,.company_info select{
+    margin-left:10px;
+}
+.company_info input{
+    width: 250px;
+}
+.company_info .time input{
+    width: auto;
+}
+.company_info select{
+    color:#808080;
+    padding:2px 0;
+    width: 250px;
+}
+.company_info textarea{
+    width: 250px;
+}
+option{
+    border-radius: 0;
+}
+.info_logo{
+    border-bottom: 1px solid #B79C80;
+}
+.info_icon{
+    padding:15px 0;
+}
+.info_store{
+    line-height: 20px;
+}
+.form_group{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+@media (max-width:767px){
+    .contact01 img{
+        width:50%;
+    }
+    .company_info{
+        flex-direction:column;
+        margin-top: 20px;
+    }
+    .info{
+        align-items: center;
+    }
+    .info img{
+        width: auto;
+    }
+    .info_logo {
+        border-bottom:none;
+    }
+    .info_icon{
+        display: flex;
+        flex-direction:row;
+    }
+    .info_store{
+        padding-bottom: 20px;
+    }
+    .form{
+        border-top: 1px solid #B79C80;
+        margin-left: 0;
+        padding-top: 20px;
+    }
+ 
+}
