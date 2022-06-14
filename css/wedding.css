@@ -1,7 +1,10 @@
-.wedding_banner{
+.wedding_banner,.company_banner{
     background: url(../images/wedding_banner.jpg) no-repeat top center;
     background-size: cover;
     min-height: 350px;
+}
+.company_banner{
+    background: url(../images/company_banner.jpg) no-repeat top center;
 }
 .wedding01{
     position: relative;
