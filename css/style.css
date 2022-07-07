@@ -212,11 +212,14 @@ nav.navbar.shrink .navbar-toggle {
  color:#d3b798;
 }
 .hvr-underline-from-left:before{
-  height: 2px;
+  height: 1px;
   background:#fff;
 }
 
 @media (max-width:768px){
+  .logo_top{
+    margin-left:20px;
+  }
   .navbar{
     background-color: #B79C80;
     background-image: none;
@@ -304,6 +307,11 @@ nav.navbar.shrink .navbar-toggle {
 }
 .home_desserts .owl-drag{
   padding:0 25px;
+}
+@media(max-width:768px){
+  .owl-nav button{
+    top:60%;
+  }
 }
 /*關於菓倆*/
 .home_about{
@@ -617,16 +625,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   .home_news .news_all{
     border: 1px solid #B79C80;
     width:auto;
-    margin:60px auto 0;
+    margin:120px 5% 0;
   }
   .home_news .news_text{
     padding-left:400px;
   }
   .home_news .news_photo{
     position: absolute;
-    top: -60px;
+    top: -100px;
     right: 0;
-    left:0;
+    left:20px;
   }
 }
 @media (max-width:767px){
@@ -650,7 +658,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 /*企業送禮&新人企劃*/
 .home_gift{
-  margin:30px auto 60px;
+  margin:30px auto 120px;
 }
 .home_gift .company,.home_gift .wedding{
   display: flex;
@@ -690,7 +698,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .gift_text{
   max-width: 670px;
 }
+@media(max-width:768px) {
+  .home_gift{
+    margin: 80px auto 120px;
+  }
+}
 @media (max-width:767px){
+  
   .gift_text{
     padding:0;
   }
@@ -730,6 +744,8 @@ footer{
 .footer p{
   padding-left: 80px;
   padding-right: 50px;
+  font-size: 10px;
+  margin-bottom: 0;
 }
 .footer li{
   margin:0 5px
