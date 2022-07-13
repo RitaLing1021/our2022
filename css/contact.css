@@ -8,6 +8,7 @@
     position: relative;
     padding:70px 0 90px 0;
     background-color: #F6EDE7;
+    overflow: hidden;
 }
 .contactline_left,.contactline_right{
     position: absolute;
@@ -78,6 +79,7 @@
 }
 .company_info input{
     width: 250px;
+    border:none;
 }
 .company_info .time input{
     width: auto;
@@ -86,9 +88,11 @@
     color:#808080;
     padding:2px 0;
     width: 250px;
+    border:none;
 }
 .company_info textarea{
     width: 250px;
+    border:none;
 }
 option{
     border-radius: 0;
@@ -106,8 +110,30 @@ option{
     margin-bottom: 10px;
     display: flex;
 }
-
+@media (max-width:1280px){
+    .contactline_left {
+        left: -20%;
+    }
+    .contactline_right {
+        right: -20%;
+    }
+}
+@media (max-width:768px){
+.contactline_left {
+    left: -40%;
+}
+.contactline_right {
+    display: none;
+}
+}
 @media (max-width:767px){
+    .contact01{
+        padding-bottom: 30px;
+    }
+    .contactline_left {
+        display: none;
+    }
+    
     .contact01 img{
         width:50%;
     }
