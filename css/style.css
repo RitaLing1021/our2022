@@ -645,15 +645,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     align-items: flex-start;
     flex-wrap: nowrap;
     align-content: flex-end;
-    margin: 60px 10px 0;
+    margin: 130px 30px 0;
 }
 .home_news .news_photo{
   position: relative;
   top:0;
-  margin-top: -60px;
+  left:-20px;
+  margin-top: -100px;
 }
   .home_news .news_text{
-    padding:0 10px;
+    padding:20px 10px 0;
   }
 }
 /*企業送禮&新人企劃*/
@@ -715,7 +716,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     display: block;
   }
   .wedding_text,.company_text{
-    padding: 10px;
+    padding: 20px;
   }
 
   

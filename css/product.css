@@ -62,7 +62,7 @@
     color:#B69B80;
 }
 .product .desserts .card-body{
-    padding: 5px;
+    padding:0 5px;
 }
 .product .desserts .card-body a{
     font-size: 10px;
@@ -164,6 +164,14 @@
     padding-top: 40px;
     font-size: 10px;
     color:#808080;
+}
+.product .card h5{
+    margin-bottom: 10px;
+}
+@media(max-width:990px){
+    .product_sell{
+        padding-left: 20px;
+    }
 }
 @media(max-width:768px){
     .product .desserts{

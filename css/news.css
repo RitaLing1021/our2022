@@ -108,6 +108,11 @@ line-height: 20px;
 .news .newscontent .news_photo img{
     width: 100%;
 }
+@media (max-width:990px){
+  .news .news_all{
+    width:auto;
+  }
+}
 @media (max-width:768px){
   .news .news_all{
     border: 1px solid #B79C80;
@@ -117,7 +122,7 @@ line-height: 20px;
   .news .newscontent{
     border: 1px solid #B79C80;
     width:auto;
-    margin:60px auto 0;
+    margin:20px auto 0;
   }
 }
 @media (max-width:767px){
