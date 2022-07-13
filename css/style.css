@@ -636,6 +636,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     right: 0;
     left:20px;
   }
+  .owl-dots{
+    padding-top: 0;
+  }
+  .home_desserts .owl-drag {
+    padding: 20px 25px 0;
+}
 }
 @media (max-width:767px){
   .home_news .news_all {
