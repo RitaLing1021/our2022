@@ -15,6 +15,7 @@
 
   <link rel="stylesheet" href="css/aos.css">
   <link rel="stylesheet" href="css/hover-min.css">
+
   <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -22,41 +23,60 @@
   
   <header>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-      <div class="container"> <a class="d-flex align-items-center" href="index.html">
-      <img src="images/logo_top.svg" alt="" class="logo_top">
-      </a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar4">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-      </button>
-      
-      
-      <div class="collapse navbar-collapse" id="navbar4">
-      <ul class="navbar-nav ml-auto pl-lg-4">
-      <li class="nav-item px-lg-2 active"> <a class="hvr-underline-from-left" href="#">關於菓倆</a> </li>
-      <li class="nav-item px-lg-2"> <a class="hvr-underline-from-left" href="#">最新消息</a> </li>
+      <div class="container">
+        <div>
+        <a class="d-flex align-items-center" href="index.html">
+          <img src="images/logo_top.svg" alt="" class="logo_top">
+          </a>
+        </div>
+      <div class="collapse navbar-collapse" id="cssmenu">
+        <ul class="ml-auto">
+          <li><a href='#'>關於菓倆</a></li>
+          <li><a href='#'>最新消息</a></li>
+          <li class='has-sub'><a href='#'>療癒甜點</a>
+             <ul>
+                <li class='has-sub'><a href='#'>燒菓子</a>
+                   <ul>
+                      <li><a href='#'>HTML5</a></li>
+                      <li><a href='#'>CSS3</a></li>
+                   </ul>
+                </li>
+                <li class='has-sub'><a href='#'>低溫配送甜點</a>
+                   <ul>
+                      <li><a href='#'>Nav2</a></li>
+                      <li><a href='#'>Nav3</a></li>
+                   </ul>
+                </li>
+                <li class='has-sub'><a href='#'>期間限定</a>
+                   <ul>
+                      <li><a href='#'>Nav2</a></li>
+                      <li><a href='#'>Nav3</a></li>
+                   </ul>
+                </li>
+                <li class='has-sub'><a href='#'>熱銷商品</a>
+                   <ul>
+                      <li><a href='#'>Nav2</a></li>
+                      <li><a href='#'>Nav3</a></li>
+                   </ul>
+                </li>
+             </ul>
+          </li>
+          <li><a href='#'>Party活動專區</a></li>
+          <li><a href='#'>企業送禮</a></li>
+          <li><a href='#'>新人企劃</a></li>
+          <li><a href='#'>聯絡我們</a></li>
 
-      <li class="nav-item px-lg-2 dropdown d-menu">
-      <a class="hvr-underline-from-left dropdown-toggle " href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">療癒甜點</a>
-      <div class="dropdown-menu sm-menu" aria-labelledby="dropdown01">
-        <a class="dropdown-item hvr-underline-from-left" href="#">燒菓子</a>
-        <a class="dropdown-item hvr-underline-from-left" href="#">低溫配送甜點</a>
-        <a class="dropdown-item hvr-underline-from-left" href="#">期間限定</a>
-        <a class="dropdown-item hvr-underline-from-left" href="#">熱銷商品</a>
-      </div>
-      </li>
+          <div id="icon" class="navbar-nav ml-auto mt-3 mt-lg-0">
+            <div class="nav-item"> <a class="" href="#">
+              <i class="fa fa-user" aria-hidden="true"></i>
+            </a> </div>
+            <div class="nav-item"> <a class="" href="#">
+              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            </a> </div>
+          </div>
       
-      <li class="nav-item px-lg-2"> <a class="hvr-underline-from-left" href="#">Party活動專區</a></li>
-      <li class="nav-item px-lg-2"> <a class="hvr-underline-from-left" href="#">企業送禮</a></li>
-      <li class="nav-item px-lg-2"> <a class="hvr-underline-from-left" href="#">新人企劃</a></li>
-      <li class="nav-item px-lg-2"> <a class="hvr-underline-from-left" href="#">聯絡我們</a></li>
-               </ul>
-      <ul id="icon" class="navbar-nav ml-auto mt-3 mt-lg-0">
-      <li class="nav-item"> <a class="" href="#">
-        <i class="fa fa-user" aria-hidden="true"></i>
-      </a> </li>
-      <li class="nav-item"> <a class="" href="#">
-        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-      </a> </li>
-      </ul>
+       </ul>
+       
       </div>
       </div>
       </nav>
@@ -238,13 +258,13 @@
                   <p class="text-center"><a href="#" class="our-btn">VIEW MORE</a></p>
                 </div>
           <div class="news_photo" style="background:url('images/news_01.jpg') no-repeat top center;background-size: cover;">
-
+<img src="images/news_01.jpg" alt="">
               </div> 
         
           </div>
         </div>
 
-        <div class="item">
+        <!--div class="item">
           <div class="news_all">
           <div class="news_text">
             <h3>我是標題</h3>
@@ -257,7 +277,7 @@
         </div> 
   
     </div>
-  </div>
+  </div-->
                   </div>
             </div>
              
@@ -326,6 +346,7 @@
 <script src='js/bootstrap.min.js'></script>
 <script src="js/aos.js"></script>
 <script src='js/owl.carousel.min.js'></script>
+
 
 <!--script src="js/owl.carousel.min.js"></script-->
 <script src="js/script.js"></script>
