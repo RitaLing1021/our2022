@@ -595,15 +595,39 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   z-index: 10;
 
 }
-.home_about_left{
+.home_about_left1{
   position: absolute;
   bottom:5%;
-  left:1%;
+  left:20%;
   z-index: 8;
 }
-.home_about_right{
+.home_about_left2{
+  position: absolute;
+  bottom:30%;
+  left:20%;
+  z-index: 8;
+}
+.home_about_left3{
+  position: absolute;
+  bottom:0;
+  left:0;
+  z-index: 7;
+}
+.home_about_right1{
   position: absolute;
   top:5%;
+  right:20%;
+  z-index: 8;
+}
+.home_about_right2{
+  position: absolute;
+  top:20%;
+  right:20%;
+  z-index: 8;
+}
+.home_about_right3{
+  position: absolute;
+  top:40%;
   right:1%;
   z-index: 8;
 }
