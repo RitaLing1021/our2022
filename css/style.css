@@ -615,19 +615,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 .home_about_right1{
   position: absolute;
-  top:5%;
+  bottom:40%;
   right:20%;
   z-index: 8;
 }
 .home_about_right2{
   position: absolute;
-  top:20%;
+  bottom:20%;
   right:20%;
   z-index: 8;
 }
 .home_about_right3{
   position: absolute;
-  top:40%;
+  bottom:5%;
   right:1%;
   z-index: 8;
 }
