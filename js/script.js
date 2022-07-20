@@ -163,11 +163,11 @@ jQuery("#prod").owlCarousel({
         if (settings.sticky === true) cssmenu.css('position', 'fixed');
 
         resizeFix = function() {
-          if ($( window ).width() > 1024) {
+          if ($( window ).width() > 768) {
             cssmenu.find('ul').show();
           }
 
-          if ($(window).width() <= 1024) {
+          if ($(window).width() <= 768) {
             cssmenu.find('ul').hide().removeClass('open');
           }
         };
