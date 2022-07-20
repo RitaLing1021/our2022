@@ -163,11 +163,11 @@ jQuery("#prod").owlCarousel({
         if (settings.sticky === true) cssmenu.css('position', 'fixed');
 
         resizeFix = function() {
-          if ($( window ).width() > 768) {
+          if ($( window ).width() > 1024) {
             cssmenu.find('ul').show();
           }
 
-          if ($(window).width() <= 768) {
+          if ($(window).width() <= 1024) {
             cssmenu.find('ul').hide().removeClass('open');
           }
         };
@@ -217,17 +217,3 @@ function() {
 });
 })(jQuery);
 
-
-/*視覺差*/
-function parallax(element, distance, speed) {
-  const item = document.querySelector(element);
-  item.style.transform = `translateY(${distance * speed}px)`;
-}
-
-window.addEventListener("scroll", function() {
-  parallax(".banner-section", window.scrollY, 1);
-  //parallax(".big-frame", window.scrollY, 0.1);
-  parallax(".mid-frame", window.scrollY, 0.4);
-  parallax(".small-frame", window.scrollY, -1);
-  parallax(".banner-content", window.scrollY, 0.3);
-});
