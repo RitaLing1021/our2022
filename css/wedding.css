@@ -47,7 +47,7 @@
 
 /*訂購流程*/
 .wedding_process{
-    background: #f5ece5;
+    background: #f6ede7;
 }
 .wedding_process h2{
     padding-top: 60px;
@@ -66,7 +66,7 @@
 .step01,.step02,.step03{
     width: 245px;
     height: 250px;
-    background: #F0EBE5;
+    background: #f6ede7;
     padding: 40px 40px 0;
     position: relative;
 }
