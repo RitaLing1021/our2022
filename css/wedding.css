@@ -119,6 +119,78 @@
     width: 100%;
     padding:50px 5% 70px;
 }
+#lottie{
+    position: relative;
+    width: 768px;
+    margin: auto;
+}
+.icon_animation_1,.icon_animation_2,.icon_animation_3,.icon_animation_4,.icon_animation_5,.icon_animation_6,.icon_animation_7,.icon_gif_1,.icon_gif_2,.icon_gif_3,.icon_gif_4,.icon_gif_5,.icon_gif_6,.icon_gif_7{
+    position: absolute;
+    z-index: 9;
+}
+.icon_animation_1{
+    top: -15px;
+    left: 65px;
+    z-index: 10;
+}
+.icon_animation_2{
+    top: 75px;
+    left: 330px;
+    z-index: 10;
+}
+.icon_animation_3{
+    top: 155px;
+    right: 27px;
+    z-index: 10;
+}
+.icon_animation_4{
+    top: 310px;
+    right: -17px;
+    z-index: 10;
+}
+.icon_animation_5{
+    top: 396px;
+    left: 50px;
+    z-index: 10;
+}
+.icon_animation_6{
+    bottom: 350px;
+    right: 125px;
+    z-index: 10;
+}
+.icon_animation_7{
+    bottom: 240px;
+    left: 290px;
+    z-index: 10;
+}
+.icon_gif_1{
+    top: 37px;
+    left: 123px;
+}
+.icon_gif_2{
+    top: 134px;
+    left: 249px;
+}
+.icon_gif_3{
+    top: 122px;
+    right: 130px;
+}
+.icon_gif_4{
+    top: 288px;
+    right: 161px;
+}
+.icon_gif_5{
+    top: 323px;
+    left: 193px;
+}
+.icon_gif_6{
+    bottom: 328px;
+    left: 360px;
+}
+.icon_gif_7{
+    bottom:65px;
+    left: 202px;
+}
 @media (max-width:768px){
     .step01, .step02, .step03 {
         width: 225px;
