@@ -48,6 +48,7 @@
 /*訂購流程*/
 .wedding_process{
     background: #f6ede7;
+    overflow: hidden;
 }
 .wedding_process h2{
     padding-top: 60px;
@@ -204,6 +205,9 @@
     .weddingline_right{
         top: 3%;
         right: -50%;
+    }
+    .icon_animation_4{
+        right:30px;
     }
 }
 @media (max-width:767px){
